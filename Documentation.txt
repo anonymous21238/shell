@@ -1,0 +1,110 @@
+NAME -- ARYESH SHAKYA
+ROLL NO . -- 2021238
+
+pwd
+
+pwd -> shows the present working directory
+
+	pwd -L -> Prints the symbolic path.
+	pwd --help -> what does this command do?
+	
+errors handled:
+	pwd -__ any other command which is not yet inplimented 
+	pwd __ __ __ if multiple command is given
+
+
+echo
+
+echo -> prints a message
+
+	echo -n -> prints a msg without new line
+	echo * -> list the contents of current directory
+
+errors handled:
+		Assumption made "__" this is considered as an normal string
+
+
+cd 
+
+cd -> used to navigate along different directories
+
+	cd .. -> takes you too previous directory
+	cd ~ -> take you too root
+	cd (path) -> takes you too the provided path
+
+errors handled:
+	path does not exists
+	two paths provided at same time
+
+date
+
+date -> help to print date
+
+	date +%Y -> prints the current year
+	date +%a -> prints the day 
+	date +%T -> prints the time
+
+errors handled:
+	date -_ any other command which is not yet inplimented 
+	date __ __ __ if multiple command is given
+
+
+cat
+
+cat -> dislpays the content of a file
+
+	cat -n -> line is numbered
+	cat -E -> put $ at the end of each line
+	cat -n -E -> does both the task of -n and -E
+
+errors handled:
+	Assumption made only one cat at a time is possible
+	multiple cat
+	file not found
+
+rm
+
+rm -> remove a file
+
+	rm -i -> asks before deleting
+	rm ~(path) -> deletes the file by providing its path
+
+errors handled:
+	rm ~(path) enter only 1 path
+	rm -__ not yet implimented
+
+
+
+mkdir 
+
+mkdir -> make a directory
+
+	mkdir -v promts that directory is made
+	mkdir -p didnt tells whether the directory already exist or not
+	mkdir -version tells about version and who wrote it
+
+errors handled:
+	no file name provided
+	mkdir -__ not yet implimented
+
+ls
+
+ls -> lists the contents of current working directory 
+	
+	ls -1 lists 1 item per line
+	ls -a lists all the content hidden also
+	ls -1 -a lists all content by 1 item per line	
+
+errors handled:
+	ls __ __ __ only one or two arguments are allowed 
+	ls -__ this is not yet implimented
+
+
+
+
+PROGRAMMED BY -- ARYESH SHAKYA
+ROLL NO       -- 2021238
+
+
+
+
